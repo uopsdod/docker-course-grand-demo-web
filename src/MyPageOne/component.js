@@ -62,7 +62,7 @@ class UIComponent extends Component {
 					<div className="margin-auto">
 					<div className="flex-container-flex-start">
 					<div className="flex-container">
-						<img className="myavatar" src='https://i.imgur.com/FEVDPBj.jpg' /> 
+						<img className="myavatar" src={require('./avatar.jpg')} /> 
 						<button className="ui basic button">{user.name}</button>
 						<button className="ui basic button">{user.email}</button>					
 					</div>
