@@ -6,7 +6,7 @@ import axios from "axios";
 // const apphostname = () => <h1>{process.env.apphostname}</h1>;
 
 var myaxios = axios.create({
-  baseURL: "http://" + process.env.REACT_APP_API_URL + ":8080",
+  baseURL: "http://" + process.env.REACT_APP_API_HOST_IP + ":8080",
   responseType: "json"
 });
 
